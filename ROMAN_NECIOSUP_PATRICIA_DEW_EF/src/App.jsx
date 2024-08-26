@@ -13,7 +13,6 @@ function App() {
         <Cabecera />
         <Formulario />
         <Pie />
-  
       </div>
     </>
   );
