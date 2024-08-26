@@ -10,7 +10,6 @@ function App() {
       <div className="container container-fluid">
         <br />
         <br />
-        <h1>MueblesFAST</h1>
         <Cabecera />
         <Formulario />
         <Pie />
