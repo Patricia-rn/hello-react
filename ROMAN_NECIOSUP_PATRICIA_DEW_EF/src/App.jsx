@@ -1,6 +1,7 @@
 import { Fragment } from "react";
 import Cabecera from "./componente/Cabecera"
 import Formulario from "./componente/Formulario"
+import Pie from "./componente/Pie"
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
         <h1>MueblesFAST</h1>
         <Cabecera />
         <Formulario />
+        <Pie />
   
       </div>
     </>
