@@ -1,6 +1,6 @@
 import React,{Component} from "react";
 
-const imgredes = ["/img/2023_Facebook_icon.svg.png", "/img/Instragram_logo_2022.svg.png", "/img/Youtube_logo.png"];
+const imgredes = ["./componente/Facebook.png", "./componente/Instragram.png", "./componente/Youtube.png"];
 class Cabecera extends Component{
     state={
         titulo:"",
@@ -11,7 +11,7 @@ class Cabecera extends Component{
         super (props);
         this.state={
             titulo:"MueblesFAST",
-            imgcab:"https://images.app.goo.gl/w8nx2r5JuRWXE76C9"
+            imgcab:"./img/muebles.jpg"
         };
     };
     render(){

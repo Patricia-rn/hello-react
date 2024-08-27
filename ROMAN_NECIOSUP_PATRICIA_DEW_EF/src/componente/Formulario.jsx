@@ -7,7 +7,7 @@ const Formulario = () => {
     const [ Phone, setPhone ] = useState('');
     const [ errors, setErrors] = useState({});
 
-    const regexTexto = /^[a-zA-ZÁÉÍÓÚñ\s]+$/;
+    const regexTexto = /^[a-zA-ZÁÉÍÓÚñ\s@.]+$/;
     const regexNumero = /^[0-9]{1,9}$/;
 
     const realizarEnvio = (e) => {

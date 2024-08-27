@@ -24,8 +24,7 @@ class FechayHora extends Component{
       return (
           <div>
             <div>MueblesFAST</div>
-            <div className="div-fecha">Fecha{this.state.fecha}</div>
-            <div className="div-fecha">Hora{this.state.hora}</div>
+            <div className="div-fecha">Fecha{this.state.fecha},Hora{this.state.hora}</div>
           </div>
         );
 };

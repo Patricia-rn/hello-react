@@ -69,4 +69,12 @@ img-rs {
   padding: 0.6em 1.2em;
   font-size: 1em;
   }
+container container-fluid {
+width: 80%;
+height: 50%;
+border-radius: 20px;
+border: 1 px solid #eee;
+overflow: hidden;
+  }
+
 }
