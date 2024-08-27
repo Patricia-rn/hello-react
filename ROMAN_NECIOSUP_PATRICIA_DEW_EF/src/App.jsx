@@ -1,6 +1,5 @@
 import { Fragment, useRef } from "react";
 import Cabecera from "./componente/Cabecera"
-import Imagen from "./componente/Imagen"
 import Formulario from "./componente/Formulario"
 import FechayHora from "./componente/FechayHora"
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -14,7 +13,6 @@ function App() {
         <br />
         <br />
         <Cabecera />
-        <Imagen/>
         <Carousel/>
         <Formulario />
         <FechayHora />
