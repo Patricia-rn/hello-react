@@ -1,6 +1,6 @@
 import React,{Component} from "react";
 
-const imgredes = ["./componente/Facebook.png", "./componente/Instragram.png", "./componente/Youtube.png"];
+const imgredes = ["./img/face.jpg", "./componente/Instragram.png", "./componente/Youtube.png"];
 class Cabecera extends Component{
     state={
         titulo:"",
@@ -12,6 +12,7 @@ class Cabecera extends Component{
         this.state={
             titulo:"MueblesFAST",
             imgcab:"./img/muebles.jpg"
+            
         };
     };
     render(){

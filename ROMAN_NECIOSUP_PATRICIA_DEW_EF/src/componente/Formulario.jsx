@@ -40,7 +40,7 @@ const Formulario = () => {
                 <Form.Control type="text" value={Email}  onChange={cambioEmail} placeholder="Email Address"></Form.Control>
                 <Form.Control type="text"  value={Phone}  onChange={cambioPhone} placeholder="Phone Number"></Form.Control>
             </Form.Group>
-            <Button variant="primary" type="submit" >Submit</Button>
+            <Button variant="warning" type="warming">Submit</Button>
         </Form>
         </>
     );
