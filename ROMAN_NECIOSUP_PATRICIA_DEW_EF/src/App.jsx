@@ -1,7 +1,7 @@
 import { Fragment } from "react";
 import Cabecera from "./componente/Cabecera"
 import Formulario from "./componente/Formulario"
-import Pie from "./componente/Pie"
+import Pie from "./componente/FechayHora"
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
         <br />
         <Cabecera />
         <Formulario />
-        <Pie />
+        <FechayHora />
       </div>
     </>
   );

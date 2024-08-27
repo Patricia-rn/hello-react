@@ -65,4 +65,8 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+img-rs {
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  }
 }

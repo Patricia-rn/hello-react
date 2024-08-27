@@ -2,8 +2,7 @@ import { Fragment, useState } from "react";
 import { Button, Form } from 'react-bootstrap';
 
 const Formulario = () => {
-    const [ Name, setName ] = useState('');
-    const [ Last, setLast ] = useState('');
+    const [ Name, setName ] = useState(''), [ Last, setLast ] = useState('');
     const [ Email, setEmail ] = useState('');
     const [ Phone, setPhone ] = useState('');
     const [ errors, setErrors] = useState({});
