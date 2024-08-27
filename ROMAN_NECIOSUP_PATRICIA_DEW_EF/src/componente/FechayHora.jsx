@@ -21,7 +21,7 @@ class FechayHora extends Component{
       setTimeout(()=> this.setState({
         hora : h + ":" + m + ":" + s
       }), 1000);
-        return (
+      return (
           <div>
             <div>MueblesFAST</div>
             <div className="div-fecha">Fecha{this.state.fecha}</div>

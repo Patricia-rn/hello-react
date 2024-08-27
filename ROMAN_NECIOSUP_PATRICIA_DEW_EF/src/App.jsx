@@ -1,7 +1,7 @@
 import { Fragment } from "react";
 import Cabecera from "./componente/Cabecera"
 import Formulario from "./componente/Formulario"
-import Pie from "./componente/FechayHora"
+import FechayHora from "./componente/FechayHora"
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
