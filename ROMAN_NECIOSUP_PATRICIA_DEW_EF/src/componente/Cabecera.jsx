@@ -1,14 +1,16 @@
 import React,{Component} from "react";
+const imgredes = ["/img/Facebook.png","/img/Instragram.png","/img/Youtube.png"];
 class Cabecera extends Component{
     state={
         titulo:"",
-        imgcab:""
+        imgcab:"",
     };
     constructor (props){
         super (props);
         this.state={
             titulo:"MueblesFAST",
-            imgcab: "./componente/ExampleCarouselImage.jpg"
+            imgcab: "/img/muebles.jpg",
+    
         };
     };
 

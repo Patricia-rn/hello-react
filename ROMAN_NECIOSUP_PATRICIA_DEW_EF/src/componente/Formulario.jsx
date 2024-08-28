@@ -7,7 +7,7 @@ const Formulario = () => {
     const [ Phone, setPhone ] = useState('');
     const [ errors, setErrors] = useState({});
 
-    const regexTexto = /^[a-zA-ZÁÉÍÓÚñ\s@.]+$/;
+    const regexTexto = /^[a-zA-ZÁÉÍÓÚñ@.\s]+$/;
     const regexNumero = /^[0-9]{1,9}$/;
 
     const realizarEnvio = (e) => {
@@ -24,7 +24,7 @@ const Formulario = () => {
         setErrors(newErrors);
         alert("Datos ingresados: { ${Name}, ${Last}, ${Email}, ${Phone} }");
     }
-
+    
     const cambioName = (e)=> setName(e.target.value);
     const cambioLast = (e)=> setLast(e.target.value);
     const cambioEmail = (e) => setEmail(e.target.value);
@@ -35,10 +35,10 @@ const Formulario = () => {
         <>
         <Form onSubmit={realizarEnvio}>
             <Form.Group>
-                <Form.Control type="text" value={Name} onChange={cambioName} placeholder="First Name"></Form.Control>
-                <Form.Control type="text" value={Last} onChange={cambioLast} placeholder="Last Name"></Form.Control>
-                <Form.Control type="text" value={Email}  onChange={cambioEmail} placeholder="Email Address"></Form.Control>
-                <Form.Control type="text"  value={Phone}  onChange={cambioPhone} placeholder="Phone Number"></Form.Control>
+                <Form.Control type="text" value={Name} onChange={cambioName} placeholder="Enter your name"></Form.Control>
+                <Form.Control type="text" value={Last} onChange={cambioLast} placeholder="Enter your Last name"></Form.Control>
+                <Form.Control type="text" value={Email}  onChange={cambioEmail} placeholder="Enter you Email"></Form.Control>
+                <Form.Control type="text"  value={Phone}  onChange={cambioPhone} placeholder="Enter your cell phone"></Form.Control>
             </Form.Group>
             <Button variant="warning" type="warming">Submit</Button>
         </Form>
